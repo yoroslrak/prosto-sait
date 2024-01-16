@@ -1,1 +1,30 @@
 
+h1 {
+    text-align:center;
+    border: 10px solid #5D56B9;
+    background-color:#5D56B9 ;
+    border-radius: 23px;
+    padding-left:50px ;
+    padding-right:50px ;
+}
+p {
+    border-radius: 23px;
+    background: #8DC3E1;
+    padding:10px;
+}
+
+h2 {
+    border-radius: 23px;
+    background: #D9D9D9;
+    text-align:center;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p{
+    background-color: black;
+    color:white;
+    padding-bottom: 200px;
+}
