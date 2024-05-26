@@ -1,42 +1,279 @@
 body {
     font-family: sans-serif;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+    background-color:rgb(185, 185, 185) ;
 }
 
 a {
-    text-decoration: transparent;
-    border-bottom:5px solid black;
-    color: black;
-    font-size: 25px;
-    margin: 75px;
-}
-
-main {
     text-align: center;
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header {
+   
+    
+    background-color:#D9D9D9;
+    align-items: center;
+    display: flex;
+    padding: 15px;
+    box-shadow: 0 0 5px 1px rgb(53, 53, 53);
 }
 
-p {
-    margin: 70px;
-    font-size: 20px;
-    padding: 20px;
-    border: 1px solid black;
+.logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin: 8px;
+}
+nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    transition: 1s;
+ 
     border-radius: 20px;
 }
 
-.fot {
 
+.nav:hover {
+    transition: 1s ease-in-out;
+    transform:scale(1.1) ;
+    background-color: rgb(255, 187, 0);
+}
+
+h1 {
+    
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 0 3px 5px rgb(70, 70, 70);
+}
+
+.ak1 {
+    width:100%;
+}
+.first{
+    padding: 20px;
+    background-image: url("https://www.mcdonalds.com/content/dam/sites/ua/nfl/hero/slider/McD_ROYALS_instore_march2024_Slider_00-1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 0;
+    position: relative;
+}
+.second{
+    position: relative;
+    height: 500px;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 0;
+    background-image: url("https://www.mcdonalds.com/content/dam/sites/ua/nfl/hero/slider/Multiversus_2336%D1%851040_Slider_march2024.png");
+}
+.third{    
+    background-position: 100% 0%;
+    background-size: cover;
+     background-repeat: no-repeat;
+      position: relative;
+    height: 500px;
+  
+    background-image: url("https://www.mcdonalds.com/content/dam/sites/ua/nfl/app-promo/App_promo_950x720.jpg");
+}
+.ak2 {
+    transition: 1s;
+    width: 180px;
+    height: 230px;
     background-color: white;
-    margin: 20px;
-    border-radius: 0px;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 1px rgb(155, 155, 155);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ak3 {
+    transition: 1s;
+    width: 180px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    padding: 10px 5px;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 1px rgb(155, 155, 155);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ak4 {
+    width: 60%;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    box-shadow: 0 1px 10px 0 gray;
+}
+
+.sp {
+    background-color: yellow;
+}
+
+.sp1 {
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.p {  transition: 1s;
+    
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    width: 180px;
+    height: 230px;
+    left: 20px;
+    border-radius: 40px;
+    box-shadow: 0 5px 10px 1px rgb(155, 155, 155);
+    font-size: 25px;
+    text-align: center;
     padding: 10px;
-}
-footer{
-    border: 30px solid black;
-    background-color: black;
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-img {
-    margin: 20px;
-    border-left: 10px dotted black;
+.menu {
+    background-color: rgb(185, 185, 185);
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
+
+
+.img2,.img1{
+    height: 90%;
+}
+.royaldelux,.chess{
+    max-height: 250px;
+    transition: 1s;
+}
+.royaldelux {
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 10px;
+    display:flex;
+
+}
+
+.rotext {
+
+}
+
+.hit {
+
+    position: absolute;
+}
+
+ 
+
+.chess {
+    border-radius: 15px;
+    
+padding-left: 10px;
+    display:flex;
+    background-color: white;
+}
+
+.rotext2 {
+
+}
+.other1 {
+    margin-top: 20px;
+}
+
+.other-1 {
+    background-image: linear-gradient(lightgray, white);
+}
+
+.ak2:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.ak3:hover {
+    transition: 1s;
+    width:190px ;
+    height:240px ;
+}
+
+.p:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    font-size: 30px;
+}
+
+.burgertext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.royaldelux:hover, .chess:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    box-shadow: 0 3px 7px 2px rgb(0, 0, 0);
+}
+
+.ah {
+    transition: 1s;
+}
+
+.ah:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    text-shadow: 1px 1px 6px black;
+}
+
+.maclogdown {
+    border-radius: 100%;
+}
+
+.royaldelux, .chess {
+    box-shadow: 0 2px 5px 0px rgb(63, 63, 63);
+}
+
+.appdownl {
+    padding-top: 50px;
+}
+
